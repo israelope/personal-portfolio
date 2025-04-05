@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export const Navbar = ({menuOpen, setMenuOpen}) => {
+export const MobileMenu = ({menuOpen, setMenuOpen}) => {
 
 
     useEffect(()=> {

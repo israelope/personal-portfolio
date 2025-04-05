@@ -13,7 +13,8 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                     {""}
                     Anointed<span className="text-blue-500"> 1</span>{" "}
                 </a>
-                <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onDoubleClick={() => setMenuOpen((prev) => !prev)}>
+                <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" 
+                onClick={() => setMenuOpen((prev) => !prev)}>
                     &#9776;
                 </div>
 
